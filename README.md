@@ -64,5 +64,5 @@ La siguiente API, es un requerimiento sobre una Evaluacion para la empresa N5Now
 	
 # Contribute
 
-* Se puede descargar el codigo de la aplicacion a traves del siguiente link: https://github.com/Nito271208/EvaluacionNet
+* Se puede descargar el codigo de la aplicacion a traves del siguiente link: https://github.com/Nito271208/N5NowAPI.git 
 
