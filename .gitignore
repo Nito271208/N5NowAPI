@@ -1,0 +1,37 @@
+# Archivos y carpetas generados por .NET
+*.csproj.user
+/bin/
+/obj/
+
+# Carpeta de configuración de Visual Studio
+.vs/
+
+# Paquetes NuGet
+/packages/
+
+# Carpeta de publicación
+/publish/
+
+# Node.js modules
+/node_modules/
+
+# Configuración de Visual Studio Code
+.vscode/
+
+# Carpetas bin y obj específicas de proyectos
+/N5NowAPI/.vscode/
+/N5NowAPI/bin/
+/N5NowAPI/obj/
+/N5Now.Application/bin/
+/N5Now.Application/obj/
+/N5Now.Domain/bin/
+/N5Now.Domain/obj/
+/N5Now.Infrastructure/bin/
+/N5Now.Infrastructure/obj/
+/N5Now.Utilities/bin/
+/N5Now.Utilities/obj/
+/N5NowUnitTes/bin/
+/N5NowUnitTes/obj/
+
+# Resultados de pruebas
+/TestResults/

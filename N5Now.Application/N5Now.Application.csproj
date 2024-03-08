@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\N5Now.Domain\N5Now.Domain.csproj" />
+    <ProjectReference Include="..\N5Now.Infrastructure\N5Now.Infrastructure.csproj" />
+    <ProjectReference Include="..\N5Now.Utilities\N5Now.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

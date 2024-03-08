@@ -1,0 +1,6 @@
+@N5NowAPI_HostAddress = http://localhost:5020
+
+//GET {{N5NowAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
