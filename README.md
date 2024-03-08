@@ -22,8 +22,10 @@ La siguiente API, es un requerimiento sobre una Evaluacion para la empresa N5Now
 	#API NET 8.0:
 	
 	1. Configurar el Proyecto "N5Nom.API" para que inicie aqui.
-	2. La aplicacion fue desarrollada, con una base de datos en SQL Server, se adjunta en la raiz del repositorio el Script de Creacion de la Base de datos con sus respectivas tablas.
-	3. Realizar las diferentes modificaciones en el "appsettings.json" en el Proyecto N5NowAPI, tales como: ConnectionStrings y Elasticsearch.
+	2. La aplicacion fue desarrollada, con una base de datos en SQL Server, se adjunta en la raiz del
+ 	repositorio en la ruta "DB_Script/DatabaseScripts.sql" Script de Creacion de la Base de datos con sus respectivas tablas.
+	3. Realizar las diferentes modificaciones en el "appsettings.json" en el Proyecto N5NowAPI,
+ 	tales como: ConnectionStrings y Elasticsearch.
 	4. Hacer click derecho sobre la solucion y ejecutar: Clean Solution y luego Rebuild Solution.
 	5. Se debe tener iniciado el Elastic Search antes de ejecutar la API.
 	6. Luego Ejecutar la aplicacion con F5.
@@ -36,12 +38,15 @@ La siguiente API, es un requerimiento sobre una Evaluacion para la empresa N5Now
 	
 # Application Architecture
 
-	La API fue desarrollada bajo la Arquitectura CQRS (Command Query Responsibility Segregation), el cual emplea un patron arquitectónico de software que enfatiza la separación de dos responsabilidades distintas dentro de una aplicación, tales como: las operaciones de comando (mutaciones) y operaciones de consulta (solo lectura)
+	La API fue desarrollada bajo la Arquitectura CQRS (Command Query Responsibility Segregation),
+ 	el cual emplea un patron arquitectónico de software que enfatiza la separación de dos responsabilidades
+  	distintas dentro de una aplicación, tales como: las operaciones de comando (mutaciones) y operaciones de consulta (solo lectura)
 	
 	La arquitectura que se usó, define las siguientes capas:
 	
 	1. N5NowAPI (Capa de Presentación de la API):
-		- Contiene los controladores (Controllers) que gestionan las solicitudes HTTP y llaman a los métodos correspondientes en la capa de aplicación.
+		- Contiene los controladores (Controllers) que gestionan las solicitudes HTTP y llaman a los métodos 
+  		correspondientes en la capa de aplicación.
 		- Inicia la aplicación.
 		
 	2. N5Now.Application (Capa de lógica y operaciones del negocio):
